@@ -1,0 +1,24 @@
+
+***************************************************************************************
+************* A very simple game code to learn JavaScript for beginners ***************
+***************************************************************************************
+
+const fMovie = "Avatar";
+
+let guess=prompt("guess the movie");
+
+while((guess !=fMovie)){
+
+    if ( guess == "quit"){
+    console.log("you quit");
+    break;
+   guess = prompt("wrong guess. movie name again");
+   
+
+   }
+}
+
+
+if(guess == fMovie){
+console.log("congratulation! you guess the movie correct");
+}
